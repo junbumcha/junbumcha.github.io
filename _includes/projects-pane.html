@@ -1,0 +1,23 @@
+{% for project in include.projects %}
+  <div class="project">
+    <div class="titledate-container">
+      <div class="title">
+        <p><b>
+          {% if project.url %}
+            <a href="{{ project.url }}">{{ project.title }}</a>
+          {% else %}
+            {{ project.title }}
+          {% endif %}
+        </b></p>
+      </div>
+      {% if project.date %}
+        <div class="date">
+          <i>{{ project.date }}</i>
+        </div>
+      {% endif %}
+    </div>
+    <div class="content">
+      <p>{{ project.content }}</p>
+    </div>
+  </div>
+{% endfor %}
