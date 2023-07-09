@@ -1,0 +1,41 @@
+projects:
+
+  - title: "Explainable AI for Trustworthy Healthcare System"
+    content: ""
+    date: Apr 2023 - Jun 2023
+    selected: y
+
+  - title: "Multimodal Dialogue Agent"
+    content: ""
+    date: Jun 2022 - Sep 2022
+    selected: n
+
+  - title: "Scene Text Recognition"
+    content: ""
+    date: Oct 2020 - Jul 2021
+    selected: n
+
+  - title: "Automatic Korean Font Generation"
+    content: "Korean fonts are composed of 11,172 letters, even not including other symbols, which makes creating a new one a labor-intensive and expensive task. This project has revolutionized the process by using deep generative models, specifically generative adversarial networks (GANs), to generate new fonts with almost 0.1% of the effort. We have published three papers on our few-shot font generation system, opening the era of personalized Korean fonts where anyone can have their own font."
+    date: Mar 2019 - Oct 2020
+    selected: y
+
+  - title: "Handol"
+    content: "Handol is a project aiming at a superhuman-level go AI for business use. We've successfully reproduced AlphaGo, AlphaGo Zero, and AlphaZero, and our system achieved the runner-up place in the world go AI competition. We've also won several matches against professional players, including handicap matches. Using this system, we offered additional services such as AI odds prediction, AI hints, and AI matches on the company's Go game platform. We've also expanded the system to create automated level design for various turn-based games beyond go."
+    date: 2018 - Feb 2019
+    selected: y
+
+  - title: "Duplicated Image Search"
+    content: This project aims to cluster duplicate images within user-uploaded images on a cloud service. Specifically, a duplicate image is defined as any image that has been manipulated in some way, such as applying photo effect filters, adding stickers, resizing, or cropping. We utilized a SIFT-based image correspondence algorithm for image matching and an approximated kNN algorithm for search efficiency.
+    date: 2017
+    selected: n
+
+  - title: "GANs Comparison without Cherry-picking"
+    content: ""
+    date: 2017
+    selected: n
+
+  - title: "iOS Applications"
+    content: "9 Applications"
+    date: 2012 - 2015
+    selected: n
