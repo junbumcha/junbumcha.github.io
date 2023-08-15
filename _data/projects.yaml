@@ -1,29 +1,39 @@
 projects:
 
-  - title: "Explainable AI for Trustworthy Healthcare System"
-    content: ""
-    date: Apr 2023 - Jun 2023
-    selected: y
+  # - title: "Multimodal Large Language Models"
+  #   content: ""
+  #   date: Jul 2023 - Present
+  #   selected: y
 
-  - title: "Multimodal Dialogue Agent"
-    content: ""
-    date: Jun 2022 - Sep 2022
+  - title: "Explainable AI for Trustworthy Healthcare System"
+    content: "Reliability is crucial in healthcare systems. This project enhances reliability by introducing explainability, which helps clarify the reasoning behind a model's predictions. More specifically, we focus on our medical reports generation model, which generates reports based on medical images. Our aim is to provide a visual representation that highlights the specific areas of the image upon which the generated report relies."
+    date: Apr 2023 - Jun 2023
     selected: n
+
+  # - title: "Multimodal Dialogue Agent"
+  #   content: ""
+  #   date: Jun 2022 - Sep 2022
+  #   selected: n
 
   - title: "Scene Text Recognition"
-    content: ""
-    date: Oct 2020 - Jul 2021
-    selected: n
+    # affiliation: NAVER CLOVA, OCR team
+    content: "The goal of our team is to create a world-leading OCR engine. My main contribution lies in the development of the scene text recognition engine. By effectively tackling the out-of-distribution problem, our OCR system effectively addresses real-world scenarios. As a result, our model achieves unparalleled performance in Korean, Chinese, and Japanese, which are the primary languages aligned with our business objectives."
+    date: Sep 2020 - Jul 2021
+    selected: y
 
-  - title: "Automatic Korean Font Generation"
-    content: "Korean fonts are composed of 11,172 letters, even not including other symbols, which makes creating a new one a labor-intensive and expensive task. This project has revolutionized the process by using deep generative models, specifically generative adversarial networks (GANs), to generate new fonts with almost 0.1% of the effort. We have published three papers on our few-shot font generation system, opening the era of personalized Korean fonts where anyone can have their own font."
-    date: Mar 2019 - Oct 2020
+# TODO 본 프로젝트는 또한 OCR 모델의 data augmentation 용도로도 사용됨.
+  - title: "Handwritten Font Generation"
+    # affiliation: NAVER CLOVA, OCR team
+    content: "Korean fonts are composed of 11,172 letters, even not including other symbols, which makes creating a new one a labor-intensive and expensive task. This project has revolutionized the process by using deep generative models, specifically generative adversarial networks (GANs), to generate new fonts with almost 0.1% of the effort. This project opens the era of personalized Korean fonts where anyone can have their own font."
+    date: Mar 2019 - Dec 2020
     selected: y
 
   - title: "Handol"
+    # affiliation: NHN, Game AI team
     content: "Handol is a project aiming at a superhuman-level go AI for business use. We've successfully reproduced AlphaGo, AlphaGo Zero, and AlphaZero, and our system achieved the runner-up place in the world go AI competition. We've also won several matches against professional players, including handicap matches. Using this system, we offered additional services such as AI odds prediction, AI hints, and AI matches on the company's Go game platform. We've also expanded the system to create automated level design for various turn-based games beyond go."
     date: 2018 - Feb 2019
     selected: y
+    # url: TEST
 
   - title: "Duplicated Image Search"
     content: This project aims to cluster duplicate images within user-uploaded images on a cloud service. Specifically, a duplicate image is defined as any image that has been manipulated in some way, such as applying photo effect filters, adding stickers, resizing, or cropping. We utilized a SIFT-based image correspondence algorithm for image matching and an approximated kNN algorithm for search efficiency.
@@ -31,7 +41,7 @@ projects:
     selected: n
 
   - title: "GANs Comparison without Cherry-picking"
-    content: ""
+    content: "The motivation behind this project is to tackle the issue of overestimation resulting from cherry-picking in generative adversarial networks (GANs). In 2017, GANs were the most trending topic in deep learning, yet the absence of quantitative evaluation metrics led to a proliferation of diverse GAN algorithms. Each algorithm claimed superiority over others based on non-objective qualitative evaluations. To address this, this project offers open-source implementations of various GAN algorithms and provides an unbiased and objective comparison without cherry-picking."
     date: 2017
     selected: n
 

@@ -3,11 +3,12 @@
     <div class="titledate-container">
       <div class="title">
         <p><b>
-          {% if project.url %}
+          <!-- {% if project.url %}
             <a href="{{ project.url }}">{{ project.title }}</a>
           {% else %}
             {{ project.title }}
-          {% endif %}
+          {% endif %} -->
+          {{ project.title }}
         </b></p>
       </div>
       {% if project.date %}
@@ -16,8 +17,19 @@
         </div>
       {% endif %}
     </div>
+
+    <div class="affiliation">
+      <p>{{ project.affiliation }}</p>
+    </div>
+
     <div class="content">
       <p>{{ project.content }}</p>
+    </div>
+
+    <div class="project-buttons">
+      {% if project.url %}
+          <a class="button" href="{{ project.url | prepend: site.baseurl }}" target="_blank">Project</a>
+      {% endif %}
     </div>
   </div>
 {% endfor %}
