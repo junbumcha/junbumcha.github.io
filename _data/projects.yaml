@@ -1,7 +1,7 @@
 projects:
   - title: "KARA"
     content: "KARA (KAkao brain Radiologic Assistant) is an AI-powered project that generates radiology reports from chest X-rays or CT scans, aiming to alleviate the shortage of radiologists. The KARA-CXR model, tailored for chest X-rays, exhibits performance competitive with junior radiologists and significantly surpasses general large multimodal models like GPT-4V in generating accurate and coherent reports."
-    date: Jun 2023 - Apr 2024
+    date: Jun 2023 - Present
     selected: y
 
   # CXR-LLM
