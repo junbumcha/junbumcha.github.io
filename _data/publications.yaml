@@ -1,8 +1,25 @@
 papers:
+  - title: "Honeybee: Locality-enhanced Projector for Multimodal LLM"
+    authors: "<b>Junbum Cha*</b>, Wooyoung Kang*, Jonghwan Mun*, Byungseok Roh"
+    venue: "CVPR, 2024 (Highlight)."
+    paper: "https://arxiv.org/abs/2312.06742"
+    # slides: ""
+    code: "https://github.com/kakaobrain/honeybee"
+    selected: y
+    aka: Honeybee
+
+
+  - title: "Learning Pseudo-Labeler beyond Noun Concepts for Open-Vocabulary Object Detection"
+    authors: "Sunghun Kang, <b>Junbum Cha</b>, Jonghwan Mun, Byungseok Roh, Chang D. Yoo"
+    venue: "Arxiv, 2023."
+    paper: "https://arxiv.org/abs/2312.02103"
+    selected: n
+    aka: PLAC
+
   - title: "Learning to Generate Text-grounded Mask for Open-world Semantic Segmentation from Only Image-Text Pairs"
     authors: "<b>Junbum Cha</b>, Jonghwan Mun, Byungseok Roh"
     venue: "CVPR, 2023."
-    paper_pdf: "https://arxiv.org/abs/2212.00785"
+    paper: "https://arxiv.org/abs/2212.00785"
     # slides: ""
     code: "https://github.com/kakaobrain/tcl"
     selected: y
@@ -11,7 +28,7 @@ papers:
   - title: "Domain Generalization by Mutual-Information Regularization with Pre-trained Models"
     authors: "<b>Junbum Cha</b>, Kyungjae Lee, Sungrae Park, Sanghyuk Chun"
     venue: "ECCV, 2022."
-    paper_pdf: "https://arxiv.org/abs/2203.10789"
+    paper: "https://arxiv.org/abs/2203.10789"
     # slides: ""
     code: "https://github.com/kakaobrain/miro"
     selected: y
@@ -20,7 +37,7 @@ papers:
   - title: "Few-shot Font Generation with Weakly Supervised Localized Representations"
     authors: "Song Park*, Sanghyuk Chun*, <b>Junbum Cha</b>, Bado Lee, Hyunjung Shim"
     venue: "TPAMI, 2022."
-    paper_pdf: "https://arxiv.org/abs/2112.11895"
+    paper: "https://arxiv.org/abs/2112.11895"
     code: "https://github.com/clovaai/lffont"
     selected: n
     aka: LFFont-journal
@@ -28,7 +45,7 @@ papers:
   - title: "SWAD: Domain Generalization by Seeking Flat Minima"
     authors: "<b>Junbum Cha</b>, Sanghyuk Chun*, Kyungjae Lee*, Han-Cheol Cho, Seunghyun Park, Yunsung Lee, Sungrae Park"
     venue: "NeurIPS, 2021."
-    paper_pdf: "https://arxiv.org/abs/2102.08604"
+    paper: "https://arxiv.org/abs/2102.08604"
     # slides: ""
     code: "https://github.com/khanrc/swad"
     selected: y
@@ -37,15 +54,15 @@ papers:
   - title: "HoughCL: Finding Better Positive Pairs In Dense Self-supervised Learning"
     authors: "Yunsung Lee, Teakgyu Hong, Han-Cheol Cho, <b>Junbum Cha</b>, Seungryong Kim"
     venue: "ICMLW, 2021"
-    paper_pdf: "https://arxiv.org/abs/2111.10794"
-    poster: ""  # https://icml21ssl.github.io/pages/files/HoughCL_ICMLW_Poster.pdf
+    paper: "https://arxiv.org/abs/2111.10794"
+    # poster: "https://icml21ssl.github.io/pages/files/HoughCL_ICMLW_Poster.pdf"
     selected: n
     aka: HoughCL
 
   - title: "Multiple Heads are Better than One: Few-shot Font Generation with Multiple Localized Experts."
     authors: "Song Park, Sanghyuk Chun, <b>Junbum Cha</b>, Bado Lee, Hyunjung Shim"
     venue: "ICCV, 2021."
-    paper_pdf: "https://arxiv.org/abs/2104.00887"
+    paper: "https://arxiv.org/abs/2104.00887"
     code: "https://github.com/clovaai/mxfont"
     selected: n
     aka: MXFont
@@ -53,7 +70,7 @@ papers:
   - title: "Few-shot Font Generation with Localized Style Representations and Factorization"
     authors: "Song Park*, Sanghyuk Chun*, <b>Junbum Cha</b>, Bado Lee, Hyunjung Shim"
     venue: "AAAI, 2021."
-    paper_pdf: "https://arxiv.org/abs/2009.11042"
+    paper: "https://arxiv.org/abs/2009.11042"
     code: "https://github.com/clovaai/lffont"
     selected: n
     aka: LFFont
@@ -61,7 +78,7 @@ papers:
   - title: "Scale down Transformer by Grouping Features for a Lightweight Character-level Language Model"
     authors: "Sungrae Park, Geewook Kim, Junyeop Lee, <b>Junbum Cha</b>, Ji-Hoon Kim, Hwalsuk Lee"
     venue: "COLING, 2020."
-    paper_pdf: "https://aclanthology.org/2020.coling-main.607/"
+    paper: "https://aclanthology.org/2020.coling-main.607/"
     code: "https://github.com/clovaai/group-transformer"
     selected: n
     aka: GroupTransformer
@@ -69,7 +86,7 @@ papers:
   - title: "Few-shot Compositional Font Generation with Dual Memory"
     authors: "<b>Junbum Cha</b>, Sanghyuk Chun, Gayoung Lee, Bado Lee, Seonghyeon Kim, Hwalsuk Lee"
     venue: "ECCV, 2020."
-    paper_pdf: "https://arxiv.org/abs/2005.10510"
+    paper: "https://arxiv.org/abs/2005.10510"
     code: "https://github.com/clovaai/dmfont"
     selected: y
     aka: DMFont
@@ -77,7 +94,7 @@ papers:
   - title: "Toward High-quality Few-shot Font Generation with Dual Memory"
     authors: "<b>Junbum Cha</b>, Sanghyuk Chun, Gayoung Lee, Bado Lee, Seonghyeon Kim, Hwalsuk Lee"
     venue: "CVPRW, 2020."
-    paper_pdf: "assets/publications/cha2020cvprw.pdf"
+    paper: "assets/publications/cha2020cvprw.pdf"
     code: "https://github.com/clovaai/dmfont"
     selected: n
     aka: DMFont-workshop
@@ -85,11 +102,11 @@ papers:
   - title: "GRiD: Gathering Rich Data from PubMed Using One-class SVM"
     authors: "<b>Junbum Cha</b>, Jeongwoo Kim, Sanghyun Park"
     venue: "IEEE International Conference on Systems, Man and Cybernetics (SMC). 2016."
-    paper_pdf: "https://ieeexplore.ieee.org/document/7844911"
+    paper: "https://ieeexplore.ieee.org/document/7844911"
     selected: n
 
   - title: "A method for obtaining rich data from PubMed using SVM"
     authors: "<b>Junbum Cha</b>, Jeongwoo Kim, Yunku Yeu, Sanghyun Park"
     venue: "ACM Symposium On Applied Computing (SAC), 2016."
-    paper_pdf: "https://dl.acm.org/doi/abs/10.1145/2851613.2851866"
+    paper: "https://dl.acm.org/doi/abs/10.1145/2851613.2851866"
     selected: n

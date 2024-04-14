@@ -1,8 +1,13 @@
 projects:
+  - title: "KARA"
+    content: "KARA (KAkao brain Radiologic Assistant) is an AI-powered project that generates radiology reports from chest X-rays or CT scans, aiming to alleviate the shortage of radiologists. The KARA-CXR model, tailored for chest X-rays, exhibits performance competitive with junior radiologists and significantly surpasses general large multimodal models like GPT-4V in generating accurate and coherent reports."
+    date: Jun 2023 - Apr 2024
+    selected: y
 
-  # - title: "Multimodal Large Language Models"
+  # CXR-LLM
+  # - title: "Multimodal Large Language Models for Healthcare"
   #   content: ""
-  #   date: Jul 2023 - Present
+  #   date: Jun 2023 - Dec 2023
   #   selected: y
 
   - title: "Explainable AI for Trustworthy Healthcare System"
@@ -10,6 +15,7 @@ projects:
     date: Apr 2023 - Jun 2023
     selected: n
 
+  # Flamingo TF
   # - title: "Multimodal Dialogue Agent"
   #   content: ""
   #   date: Jun 2022 - Sep 2022
@@ -46,6 +52,6 @@ projects:
     selected: n
 
   - title: "iOS Applications"
-    content: "9 Applications"
+    content: "I began my career as a software engineer. Within the first three years, I co-founded a start-up and developed 9 iOS applications. Out of these 9 applications, I contributed to 4 of them across all stages of productization, including initial ideation, product planning, business modeling, design, marketing, sales, and operation, beyond just application development."
     date: 2012 - 2015
     selected: n
