@@ -21,7 +21,7 @@ projects:
   #   date: Jun 2022 - Sep 2022
   #   selected: n
 
-  - title: "Scene Text Recognition"
+  - title: "CLOVA OCR"
     # affiliation: NAVER CLOVA, OCR team
     content: "The goal of our team is to create a world-leading OCR engine. My main contribution lies in the development of the scene text recognition engine. By effectively tackling the out-of-distribution problem, our OCR system effectively addresses real-world scenarios. As a result, our model achieves unparalleled performance in Korean, Chinese, and Japanese, which are the primary languages aligned with our business objectives."
     date: Sep 2020 - Jul 2021
